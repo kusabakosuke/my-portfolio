@@ -6,24 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <title>草場幸亮のホームページ</title>
   </head>
   <body>
-    <script src="main.js"></script>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <div class="header-container">
+        <h2 class="page-title">My PortFolio</h2>
+        <nav class="header-nav">
+          <ul>
+            <li><a class="my-profile" href="#my-profile">My Profile</a></li>
+            <li><a class="my-favorite" href="#my-favorite">My Hobby</a></li>
+            <li>
+              <a class="favorite-artist" href="#favorite-artist"
+                >Favorite Artist</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="page-top">
+      <img class="page-top-img" src="images/pagetop.jpeg" />
+    </div>
+    <div class="content">
+      <div class="my-profile" id="my-profile">
+        <div class="section-title">Profile</div>
+        <div class="profile-content">
+          <div class="my-face-img">
+            <img src="images/my-clothes.jpeg" alt="自分の写真" />
+          </div>
+          <div class="profile-detail">
+            <p class="profile-name">草場幸亮</p>
+            <p>出身地：佐賀/武雄市</p>
+            <p>出身高校：武雄高校</p>
+            <p>大学：九州大学・経済学部</p>
+            <p>活動：長期インターン、プログラミング(勉強中)</p>
+          </div>
+        </div>
+      </div>
+      <div class="my-favorite" id="my-favorite">
+        <div class="section-title">My Hobby</div>
+        <div class="favorite-content">
+          <h3 id="quiz-text"></h3>
+          <div>
+            <button id="marjong"></button>
+            <button id="keiba"></button>
+            <button id="pachinko"></button>
+          </div>
+          <div class="feedback" id="feedback"></div>
+          <img class="fb-img" id="fb-image" />
+        </div>
+      </div>
+      <div class="favorite-artist" id="favorite-artist">
+        <div class="section-title">My Favorite Artist</div>
+        <div class="artist-content">
+          <h2 id="artist-name">KINGGNU</h2>
+          <div class="artist-img">
+            <img src="images/greatestunknown.jpeg" />
+            <img src="images/ceremony.jpeg" />
+            <img src="images/Sympa.webp" />
+            <img src="images/TokyoRendezVous.jpeg" />
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/*ヘッダーの装飾*/
+header {
+}
+header h2 {
+  margin: 0px 50px;
+  padding: 20px;
+  text-align: left;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav {
+  text-align: left;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+li {
+  margin: 0% 15px;
+  list-style: none;
+}
+
+.page-top-img {
+  width: 100%;
+  height: 90%;
+  margin-bottom: 10%;
+}
+/*contentの装飾*/
+.content {
+  margin: 20px 10% 20px 10%;
+}
+/*my-profile内のの装飾*/
+.section-title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  text-decoration: underline;
+  padding: 10px;
+}
+.profile-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10%;
+  background-color: #d7cebb;
+  border-radius: 30px;
+}
+.my-face-img {
+  width: 45%;
+}
+.my-face-img img {
+  width: 70%;
+  border-radius: 30px;
+  margin: 10%;
+}
+.profile-detail {
+  height: 250px;
+  background-color: beige;
+  padding: 20px;
+  border-radius: 30px;
+}
+.profile-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10%;
+}
+p {
+  font-size: large;
+}
+.my-favorite {
+  margin-bottom: 10%;
+}
+.favorite-content {
+  text-align: center;
+  background-color: #d7cebb;
+  border-radius: 30px;
+}
+
+.favorite-detail {
+  border-radius: 30px;
+  background-color: beige;
+  padding: 20px;
+}
+.favorite-image {
+  width: 50%;
+}
+.favorite-image img {
+  width: 20%;
+  border-radius: 30px;
+}
+h3 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: beige;
+  padding: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.fb-img {
+  width: 30%;
+  border-radius: 30px;
+  float: bottom;
+}
+.feedback {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 5%;
+}
+.artist-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+}
